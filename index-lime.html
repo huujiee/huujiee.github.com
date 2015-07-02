@@ -8,11 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
 	<!-- CSS Files -->
-	
+		
 	<link rel="stylesheet" href="css/animate.min.css" />
 	<link rel="stylesheet" href="css/bootstrap.css" />
-	<link rel="stylesheet" href="css/style.css" />
-	<link rel="stylesheet" href="css/flexslider.css" />
+	<link rel="stylesheet" href="css/lime.css" />
+	<link rel="stylesheet" href="css/flexslider-lime.css" />
 	<link rel="stylesheet" href="css/font-awesome.css" />
 	<link rel="stylesheet" href="css/prettyPhoto.css" />
 	<link rel="stylesheet" href="css/responsive.css" />
@@ -95,11 +95,10 @@
 			
 			<!-- Logo -->
 			<div class="logo">
-				<a class="scroll" href="#home"><img src="images/logo.png" alt="Logo" /></a>
+				<a class="scroll" href="#home"><img src="images/logo/logo-lime.png" alt="Logo" /></a>
 			</div>
 			
 			<!-- Nav Menu -->
-			
 			<nav class="nav-menu">
 				
 				<ul class="nav main-nav">
@@ -127,7 +126,6 @@
 					<li><a class="scroll" href="#blog">Blog</a></li>
 					<li><a class="scroll" href="#prices">Prices</a></li>
 					<li><a class="scroll" href="#contact">Contact</a></li>
-                    <li><a class="scroll" href="http://sc.chinaz.com">More</a></li>
 				  </ul>
 				</nav>
 		
@@ -135,7 +133,7 @@
 	
 	</section>
 	<!-- End Navigation Section -->
-	<div class="copyrights">Collect from <a href="http://sc.chinaz.com/" >手机网站模板</a></div>
+	
 	<!-- About Section -->
 	<section id="about" class="contain nav-link">
 		
@@ -619,8 +617,7 @@
 								</div>
 							</div>
 							</div>								
-				</div>
-							
+				</div>							
 		
 		</div>
 		</section>
@@ -737,7 +734,7 @@
 	
 					<!--Gmap-->
 					<section class="gmap_outer">
-						map
+						<div id="map-canvas"></div>
 					</section>
 					<!--Gmap END-->			
 			
@@ -748,14 +745,14 @@
 							<form id="contact-form" action="contact.php" method="post" class="contact-form1">
 							<div class="row">
 								<div class="col-sm-6">
-						<input name="name" type="text" placeholder="Enter your full name..." required />
+						<input name="name" type="text" placeholder="Enter your full name..." required="required" />
 								</div>
 								<div class="col-sm-6">
-									<input name="email" type="email" placeholder="Enter your email address..." required />
+									<input name="email" type="email" placeholder="Enter your email address..." required="required" />
 								</div>
 							</div>
 								
-							<textarea name="message" rows="8" cols="40" placeholder="Enter your message here..." required></textarea>
+							<textarea name="message" rows="8" cols="40" placeholder="Enter your message here..." required="required"></textarea>
  
 							<input name="send" class="btn-c" type="submit" value="SEND" />
 
